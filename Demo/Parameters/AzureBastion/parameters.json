@@ -1,0 +1,15 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "azureBastionName": {
+            "value": "CRB-MGTEMP-VNET-bastion"
+        },
+        "vNetId": {
+            "value": "/subscriptions/ad9c57a8-cd62-4058-9868-3ec9f09f83be/resourceGroups/CRB-MGTEMP-RGRP/providers/Microsoft.Network/virtualNetworks/CRB-MGTEMP-VNET"
+        }, "tags": {
+			"value": {
+			}
+		}
+    }
+}

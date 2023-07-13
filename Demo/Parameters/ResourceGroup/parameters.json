@@ -1,0 +1,20 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "resourceGroupName": {
+        "value": "CRB-MGTEMP-RGRP"
+      }, "tags": {
+        "value": {
+          "CRBMigrated": "Yes",
+          "CRBSourceVM": "GBIPS-X-WS210",
+          "CRBPurpose": "WS",
+          "CRBExternalFacing": "Yes",
+          "CRBEnvironment": "Production",
+          "CRBAppID-1": "004169",
+          "CRBAppName-1": "Willis AU Insolvency",
+          "CRBServiceManager-1": "Julian Ryan"
+        }
+      }
+    }
+  }
